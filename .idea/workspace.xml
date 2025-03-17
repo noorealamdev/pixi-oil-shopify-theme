@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4274e6d5-3e73-4ad4-94d3-8537236f7fbe" name="Changes" comment="initial commit">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/oil-shopify-theme.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_stock/collections/collection-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_stock/collections/collection-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_stock/collections/collection-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_stock/collections/collection-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_stock/collections/collection-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_stock/collections/collection-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_stock/lifestyle/lifestyle-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_stock/lifestyle/lifestyle-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_stock/no-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_stock/products/product-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_stock/products/product-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_stock/products/product-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_stock/products/product-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_stock/products/product-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/_stock/products/product-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/cart.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/collection.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/collection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/product.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/product.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/search.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sections.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/sections.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/variables.css.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor-bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor-bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor-swiper.bundle.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/vendor-swiper.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/settings_data.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/settings_schema.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/password.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/layout/theme.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/locales/en.default.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/announcement-bar.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/article-main.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/blog-header.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/blog-main.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/blog-slider.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/card-list.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/card-slider.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/cart-count-badge.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/collection-header.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/collection-products.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/contact-form.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/faq.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/featured-collections.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/featured-products.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/footer-group.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/footer.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/header-group.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/hero-carousel.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/hero.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/html.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/media-with-text.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/navbar.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/newsletter.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/offcanvas-cart.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/page-content.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/password-main.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/predictive-search.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/product-main.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/richtext.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/search-main.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/separator.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sections/testimonials.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/article-card.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/cart-count-badge.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/cart-footer.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/cart-items.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/cart-note.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/collection-card.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/collection-filters.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/collection-utilities.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/footer-block.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/image-url.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/meta-tags.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/modal-localization.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/navbar-desktop-icons.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/navbar-desktop-menu.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/navbar-logo.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/offcanvas-cart.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/offcanvas-menu.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/offcanvas-search.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/pagination.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/payment-icons.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/product-block-atc-button.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/product-block-collapse.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/product-block-liquid.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/product-block-media-gallery.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/product-block-options.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/product-block-price.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/product-block-richtext.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/product-block-separator.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/product-block-stock-indicator.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/product-block-title.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/product-block-trust-icons.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/product-card-form.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/product-card-price.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/product-card.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/product-custom-badge.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/product-rating-badge.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/rich-snippets.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/section-header.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/social-icons.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/styles-scripts.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/snippets/svg-icons.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/404.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/article.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/blog.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/cart.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/gift_card.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/index.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/list-collections.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/page.about.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/page.contact.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/page.faq.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/page.liquid" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/password.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/product.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/search.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "noorealamdev"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/noorealamdev/pixi-oil-shopify-theme.git",
+    "accountId": "082cf2f9-7ec2-4145-84bf-369e51065774"
+  }
+}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2roDpngi6UmnM8vYta9kpAmMm96" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/noore/Desktop/Shopify-Theme/oil-shopify-theme",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="StructureViewState">
+    <option name="selectedTab" value="HTML" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4274e6d5-3e73-4ad4-94d3-8537236f7fbe" name="Changes" comment="" />
+      <created>1737216719639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1737216719639</updated>
+      <workItem from="1737216720988" duration="3092000" />
+      <workItem from="1737266251250" duration="1524000" />
+      <workItem from="1737354549501" duration="9521000" />
+      <workItem from="1737883591841" duration="725000" />
+      <workItem from="1737884394842" duration="3571000" />
+      <workItem from="1737968472375" duration="2803000" />
+      <workItem from="1737993355533" duration="2373000" />
+      <workItem from="1738045081902" duration="12621000" />
+      <workItem from="1738078984761" duration="202000" />
+      <workItem from="1738079212134" duration="2694000" />
+      <workItem from="1738082474973" duration="4717000" />
+      <workItem from="1738133966418" duration="6368000" />
+      <workItem from="1738164716184" duration="802000" />
+      <workItem from="1738225964700" duration="6480000" />
+      <workItem from="1738250766368" duration="762000" />
+      <workItem from="1739205866304" duration="2000" />
+      <workItem from="1741191146243" duration="17000" />
+      <workItem from="1741191421368" duration="155000" />
+      <workItem from="1741243681174" duration="2065000" />
+      <workItem from="1742030661878" duration="3324000" />
+      <workItem from="1742035383627" duration="2102000" />
+      <workItem from="1742100371503" duration="4657000" />
+      <workItem from="1742200351044" duration="551000" />
+      <workItem from="1742201122516" duration="10195000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial commit" />
+  </component>
+</project>
