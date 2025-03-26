@@ -35,7 +35,7 @@
           {% endif %}
         </span>
       {% endif %}
-      {% render 'image-url', img: product.featured_image, orientation: settings.product_card_img_orientation, class: settings.product_card_img_border %}
+      {% render 'image-url', img: product.featured_image, orientation: settings.product_card_img_orientation, class: settings.product_card_img_border, img_bg_color: settings.product_card_img_bg_color %}
     </div>
     <h3 class="product-card-title product-title {{ settings.product_card_title_font_size }}">
       {{ product.title }}

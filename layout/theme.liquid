@@ -12,7 +12,7 @@
   <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
 
   {%- unless settings.favicon == blank -%}
-      <link rel="icon" type="image/png" href="{{ settings.favicon | image_url: width: '32', height: '32' }}">
+      <link rel="icon" type="image/png" href="{{ settings.favicon | img_url: width: '32', height: '32' }}">
   {%- endunless -%}
 
   <title>

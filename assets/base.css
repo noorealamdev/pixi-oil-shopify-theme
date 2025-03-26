@@ -1,3 +1,16 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  overflow-x: hidden;
+}
+@media only screen and (max-width: 767px) {
+  img {
+    width: 100%;
+  }
+}
 /*
   Variables
 */
@@ -75,7 +88,9 @@
 .heading {
   font-family: var(--bs-headings-font-family);
 }
-
+.section-header {
+  margin-bottom: 48px;
+}
 
 /*
   Buttons
@@ -86,6 +101,9 @@
   text-transform: var(--bs-btn-text-transform);
   letter-spacing: var(--bs-btn-letter-spacing);
   background-image: var(--bs-btn-bg-gradient);
+  padding: 10px 30px;
+  border-radius: 30px;
+  margin-top: 10px;
 }
 
 .btn-primary {
@@ -941,6 +959,13 @@ hr {
 */
 .card {
   --bs-card-border-color: var(--bs-border-color);
+}
+.img-bg {
+  padding: .25rem;
+  background-color: #e5ecda;
+  border-radius: var(--bs-border-radius);
+  max-width: 100%;
+  height: auto;
 }
 
 

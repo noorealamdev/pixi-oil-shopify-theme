@@ -59,10 +59,14 @@
     assign height_scaled = height
   endif
 %}
+<div class="">
+  {{ product.title }}
+</div>
 
 <img
-  src="{{ img | image_url: width: width_scaled, height: height_scaled, crop: 'center' }}"
+  src="{{ img | img_url: 'master' | width: width_scaled, height: height_scaled, crop: 'center' }}"
   class="img-fluid {{ class }}"
+  style="background-color: {% if img_bg_color %}{{ img_bg_color }}{% endif %}"
   alt="{{ img.alt }}"
   width="{{ width }}"
   height="{{ height }}"

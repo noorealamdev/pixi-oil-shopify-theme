@@ -172,7 +172,9 @@ body.navbar-dropdown-open #footer-group::after {
   padding-right: 0.5rem;
 }
 
-
+/*
+  Hero
+*/
 .hero-section {
   padding: 120px 0;
   position: relative;
@@ -182,9 +184,14 @@ body.navbar-dropdown-open #footer-group::after {
 .hero-section .shape img {
   max-width: 200px;
   position: absolute;
-  left: -10px;
+  left: -20px;
   top: 0;
   z-index: -1;
+}
+.hero-section .content-wrapper {
+  position: relative;
+  top: -50px;
+  left: 50px;
 }
 .hero-section .content-wrapper h1 {
   font-size: 80px;
@@ -198,13 +205,6 @@ body.navbar-dropdown-open #footer-group::after {
 .hero-section .content-wrapper p {
   color: var(--bs-body-color);
   margin-top: 20px;
-}
-.hero-section .content-wrapper .btn {
-  background-color: var(--bs-primary);
-  color: #fff;
-  padding: 10px 30px;
-  border-radius: 30px;
-  margin-top: 10px;
 }
 .hero-section .content-wrapper .client-review {
   display: flex;
@@ -226,6 +226,35 @@ body.navbar-dropdown-open #footer-group::after {
 .hero-section .content-wrapper .client-review .client-text h6 {
   font-weight: 700;
   color: var(--bs-heading-color);
+}
+@media only screen and (max-width: 767px) {
+  .hero-section{
+    padding: 32px 0;
+    background-image: none !important;
+  }
+  .hero-section .shape img {
+    display: none;
+  }
+  .hero-section .content-wrapper {
+    top: 0;
+    left: 0;
+  }
+  .hero-section .content-wrapper h1{
+    font-size: 40px;
+  }
+  .hero-section .content-wrapper h5{
+    font-size: 22px;
+  }
+  .hero-section .special-offers{
+    height: 100%;
+    padding: 20px;
+  }
+  .hero-section .special-offers .discount-product{
+    margin-top: 20px;
+  }
+  .hero-section .special-offers .discount-ribbon{
+    display: none;
+  }
 }
 
 /*
@@ -437,6 +466,113 @@ body.navbar-dropdown-open #footer-group::after {
   border-bottom-style: solid;
 }
 
+/*
+  Special offer
+*/
+.special-offers{
+  position: relative;
+  background-color: #e5ecda;
+  height: 200px;
+  width: 100%;
+  border-radius: 10px;
+}
+.special-offers .discount-ribbon {
+  position: relative;
+  margin-bottom: 30px;
+}
+.special-offers .discount-ribbon .ribbon {
+  width: 120px;
+  padding: 10px 0;
+  position: absolute;
+  top: -15px;
+  left: 30%;
+  text-align: center;
+  border-top-left-radius: 3px;
+  background: var(--bs-primary);
+  height: 150px;
+}
+.special-offers .discount-ribbon .ribbon:before {
+  height: 0;
+  width: 0;
+  right: -17.5px;
+  top: -1px;
+  border-bottom: 18px solid var(--bs-primary);
+  border-right: 18px solid transparent;
+}
+.special-offers .discount-ribbon .ribbon:before, .special-offers .discount-ribbon .ribbon:after {
+  content: "";
+  position: absolute;
+}
+.special-offers .discount-ribbon .ribbon:after {
+  height: 0;
+  width: 100%;
+  bottom: -40.5px;
+  left: 0;
+  border-left: 60px solid var(--bs-primary);
+  border-right: 60px solid var(--bs-primary);
+  border-bottom: 42px solid transparent;
+}
+.special-offers .discount-ribbon .ribbon h5{
+  margin-top: 40px;
+  font-size: 25px;
+  color: var(--bs-heading-color);
+}
+.special-offers .discount-ribbon .ribbon p{
+  font-size: 20px;
+  color: var(--bs-body-color);
+}
+.special-offers .discount-product{
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  padding: 30px;
+}
+.special-offers .discount-product img{
+  display: block;
+  height: 140px;
+  width: 140px;
+  background-color: #d2e1bf;
+  border-radius: 100%;
+}
+.special-offers .discount-product .text h5{
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0;
+}
+.special-offers .discount-product .text span{
+  font-size: 15px;
+}
+.special-offers .discount-product .text h6{
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+@media only screen and (max-width: 767px) {
+  .special-offers{
+    height: 100%;
+  }
+  .special-offers .discount-ribbon {
+    margin-bottom: 180px;
+  }
+}
+/*
+  Image with content
+*/
+.image-with-content{
+  padding-top: 120px;
+}
+.image-with-content .right-area h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.image-with-content .right-area p {
+  margin-top: 20px;
+}
+@media only screen and (max-width: 767px) {
+  .image-with-content .right-area h1 {
+    font-size: 32px;
+  }
+}
 
 /* 
   Lookbook 
