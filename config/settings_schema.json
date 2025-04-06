@@ -154,7 +154,7 @@
         "type": "select",
         "id": "btn_font_weight",
         "label": "Font weight",
-        "default": "500",
+        "default": "600",
         "options": [
           {
             "value": "400",

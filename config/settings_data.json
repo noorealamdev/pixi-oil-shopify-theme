@@ -13,7 +13,7 @@
     "font_headings": "ubuntu_n4",
     "btn_text_transform": "none",
     "btn_font_family": "var(--bs-body-font-family)",
-    "btn_font_weight": "500",
+    "btn_font_weight": "600",
     "btn_letter_spacing": 1,
     "btn_bg_gradient": true,
     "btn_padding_x": 1,
