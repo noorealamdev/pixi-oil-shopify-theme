@@ -1,0 +1,229 @@
+<div id="hero-{{ section.id }}" class="
+    hero
+    {{ section.settings.pt | prepend: 'pt-' }}
+    {{ section.settings.pb | prepend: 'pb-' }}
+  " style="">
+    <div class="hero-section" style="background: url({{ section.settings.main_img | img_url: 'master' }});background-repeat: no-repeat;background-position: right;background-size: contain;">
+      {% if section.settings.left_img %}
+        <div class="shape">
+          <img src="{{ section.settings.left_img | img_url: 'master' }}" alt="">
+        </div>
+      {% endif %}
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="content-wrapper">
+                        {% if section.settings.title %}
+                            <h2 class="{{ section.settings.text_color }} {{ section.settings.title_font_size }}">{{ section.settings.title }}</h2>
+                        {% endif %}
+                        {% if section.settings.subtitle %}
+                            <h5 class="{{ section.settings.text_color }}">{{ section.settings.subtitle }}</h5>
+                        {% endif %}
+                        {% if section.settings.description %}
+                            <p class="{{ section.settings.text_color }} {{ section.settings.description_font_size }}">{{ section.settings.description }}</p>
+                        {% endif %}
+
+                        {% if section.settings.btn_text != blank %}
+                          <a class="btn {{ section.settings.btn_color }}" href="{{ section.settings.btn_url }}">{{ section.settings.btn_text }}</a>
+                        {% endif %}
+
+                        {% if section.settings.show_client_reviews %}
+                          <div class="client-review">
+                              <div class="client-images">
+                                  <img class="client-img" src="{{ 'client-1.jpg' | asset_url }}" alt="">
+                                  <img class="client-img" src="{{ 'client-2.jpg' | asset_url }}" alt="">
+                                  <img class="client-img" src="{{ 'client-3.jpg' | asset_url }}" alt="">
+                              </div>
+                              <div class="client-text">
+                                {% if section.settings.show_client_reviews %}
+                                  <h6>{{ section.settings.review_title }}</h6>
+                                {% endif %}
+                                <span>
+                                  <svg width="16px" height="16px" viewbox="0 0 24 24" fill="none"
+                                       xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.15316 5.40838C10.4198 3.13613 11.0531 2 12 2C12.9469 2 13.5802 3.13612 14.8468 5.40837L15.1745 5.99623C15.5345 6.64193 15.7144 6.96479 15.9951 7.17781C16.2757 7.39083 16.6251 7.4699 17.3241 7.62805L17.9605 7.77203C20.4201 8.32856 21.65 8.60682 21.9426 9.54773C22.2352 10.4886 21.3968 11.4691 19.7199 13.4299L19.2861 13.9372C18.8096 14.4944 18.5713 14.773 18.4641 15.1177C18.357 15.4624 18.393 15.8341 18.465 16.5776L18.5306 17.2544C18.7841 19.8706 18.9109 21.1787 18.1449 21.7602C17.3788 22.3417 16.2273 21.8115 13.9243 20.7512L13.3285 20.4768C12.6741 20.1755 12.3469 20.0248 12 20.0248C11.6531 20.0248 11.3259 20.1755 10.6715 20.4768L10.0757 20.7512C7.77268 21.8115 6.62118 22.3417 5.85515 21.7602C5.08912 21.1787 5.21588 19.8706 5.4694 17.2544L5.53498 16.5776C5.60703 15.8341 5.64305 15.4624 5.53586 15.1177C5.42868 14.773 5.19043 14.4944 4.71392 13.9372L4.2801 13.4299C2.60325 11.4691 1.76482 10.4886 2.05742 9.54773C2.35002 8.60682 3.57986 8.32856 6.03954 7.77203L6.67589 7.62805C7.37485 7.4699 7.72433 7.39083 8.00494 7.17781C8.28555 6.96479 8.46553 6.64194 8.82547 5.99623L9.15316 5.40838Z"
+                                          fill="#ee6221"/>
+                                  </svg>
+                                  {{ section.settings.review_rating }}
+                                </span>
+                              </div>
+                          </div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+</style>
+{% stylesheet %}
+{% endstylesheet %}
+
+{% schema %}
+{
+  "name": "Hero",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "main_img",
+      "label": "Main image",
+      "info": "950 x 750px recommended"
+    },
+    {
+      "type": "image_picker",
+      "id": "left_img",
+      "label": "Left image"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "Pixi Organic Oil",
+      "info": "Leave empty to disable"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "Subtitle",
+      "default": "Pure Natural Organic Oil",
+      "info": "Leave empty to disable"
+    },
+    {
+      "type": "textarea",
+      "id": "description",
+      "label": "Description",
+      "default": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam incidunt sint quia, temporibus eligendi ipsum",
+      "info": "Leave empty to disable"
+    },
+    {
+      "type": "text",
+      "id": "btn_text",
+      "label": "Button text",
+      "default": "Shop now",
+      "info": "Leave empty to disable"
+    },
+    {
+      "type": "url",
+      "id": "btn_url",
+      "label": "Button URL"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_client_reviews",
+      "label": "Show client reviews",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "review_title",
+      "label": "Review title",
+      "default": "Our Satisfied Customer"
+    },
+    {
+      "type": "text",
+      "id": "review_rating",
+      "label": "Review rating",
+      "default": "4.9 (220 Rating)"
+    },
+    {
+      "type": "header",
+      "content": "Styling"
+    },
+    {
+      "type": "select",
+      "id": "title_font_size",
+      "label": "Title font-size",
+      "default": "h2",
+      "options": [
+        { "value": "h1", "label": "H1" },
+        { "value": "h2", "label": "H2" },
+        { "value": "h3", "label": "H3" },
+        { "value": "h4", "label": "H4" },
+        { "value": "h5", "label": "H5" },
+        { "value": "h6", "label": "H6" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "description_font_size",
+      "label": "Description font-size",
+      "default": "fs-md",
+      "options": [
+        { "value": "fs-sm", "label": "sm" },
+        { "value": "fs-md", "label": "md" },
+        { "value": "fs-lg", "label": "lg" },
+        { "value": "fs-xl", "label": "xl" },
+        { "value": "fs-xxl", "label": "xxl" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "text_color",
+      "label": "Text color",
+      "default": "text-body",
+      "options": [
+        { "value": "text-primary", "label": "Primary" },
+        { "value": "text-secondary", "label": "Secondary" },
+        { "value": "text-body", "label": "Body" },
+        { "value": "text-white", "label": "White" }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "btn_color",
+      "label": "Button color",
+      "default": "btn-primary",
+      "options": [
+        { "group": "Solid", "value": "btn-primary", "label": "Primary" },
+        { "group": "Solid", "value": "btn-secondary", "label": "Secondary" },
+        { "group": "Solid", "value": "btn-white", "label": "White" },
+        { "group": "Light", "value": "btn-light-primary", "label": "Primary" },
+        { "group": "Light", "value": "btn-light-secondary", "label": "Secondary" },
+        { "group": "Light", "value": "btn-light-white", "label": "White" },
+        { "group": "Outline", "value": "btn-outline-primary", "label": "Primary" },
+        { "group": "Outline", "value": "btn-outline-secondary", "label": "Secondary" },
+        { "group": "Outline", "value": "btn-outline-white", "label": "White" }
+      ]
+    },
+    {
+      "type": "text",
+      "id": "container_max_width",
+      "label": "Container max-width (px)",
+      "info": "Leave empty to use the global container width"
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "pt",
+      "label": "Top",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "pb",
+      "label": "Bottom",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 10
+    }
+  ],
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "presets": [
+    {
+      "name": "Hero"
+    }
+  ]
+}
+{% endschema %}

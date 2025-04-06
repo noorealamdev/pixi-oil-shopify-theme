@@ -1,0 +1,151 @@
+{% capture empty_state %}
+  {% for num in (1..2) %}
+    <div class="col">
+      <div class="discount-product">
+        <a href="#">
+          <img src="https://placehold.co/150x150" alt="">
+        </a>
+        <div class="text">
+          <h5>Product {{ num }}</h5>
+          <span>500ml</span>
+          <h6>$19.99</h6>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+{% endcapture %}
+
+<div id="special-offer-{{ section.id }}" class="
+    hero
+    {{ section.settings.pt | prepend: 'pt-' }}
+    {{ section.settings.pb | prepend: 'pb-' }}
+  " style="">
+  <div class="container">
+    <div class="special-offers" style="background-color: {% if section.settings.bg_color %}{{ section.settings.bg_color }}{% endif %}">
+      <div class="row">
+        {% if section.settings.show_ribbon %}
+          <div class="col">
+            <div class="discount-ribbon">
+              <div class="ribbon">
+                <h5 class="{{ section.settings.ribbon_text_color }}">{{ section.settings.title }}</h5>
+              </div>
+            </div>
+          </div>
+        {% endif %}
+
+        {% if section.settings.products == blank %}
+          {{ empty_state }}
+        {% else %}
+          {% for product in section.settings.products %}
+            <div class="col">
+              <div class="discount-product">
+                <a href="{{ product.url }}">
+                  <img src="{{ product.images[0] | img_url: '150x150' }}" alt="{{ product.title }}">
+                </a>
+                <div class="text">
+                  <a href="{{ product.url }}" style="text-decoration: none">
+                    <h5>{{ product.title }}</h5>
+                  </a>
+                    <span>{{ product.variants[0].title }}</span>
+                  <h6>{{ product.price | money_without_trailing_zeros }}</h6>
+                </div>
+              </div>
+            </div>
+          {% endfor %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Special Offer",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "product_list",
+      "id": "products",
+      "label": "Products"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_ribbon",
+      "label": "Show ribbon",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "20% Off <br> Discount"
+    },
+    {
+      "type": "header",
+      "content": "Styling"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "Background color",
+      "info": "Remove color code if not needed. Default color #e5ecda",
+      "default": "#e5ecda"
+    },
+    {
+      "type": "select",
+      "id": "ribbon_text_color",
+      "label": "Ribbon text color",
+      "default": "text-body",
+      "options": [
+        {
+          "value": "text-primary",
+          "label": "Primary"
+        },
+        {
+          "value": "text-secondary",
+          "label": "Secondary"
+        },
+        {
+          "value": "text-body",
+          "label": "Body"
+        },
+        {
+          "value": "text-white",
+          "label": "White"
+        }
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Spacing"
+    },
+    {
+      "type": "range",
+      "id": "pt",
+      "label": "Top",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 10
+    },
+    {
+      "type": "range",
+      "id": "pb",
+      "label": "Bottom",
+      "min": 0,
+      "max": 20,
+      "step": 1,
+      "default": 10
+    }
+  ],
+  "disabled_on": {
+    "groups": ["header", "footer"]
+  },
+  "presets": [
+    {
+      "name": "Special Offer"
+    }
+  ]
+}
+{% endschema %}

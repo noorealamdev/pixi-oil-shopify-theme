@@ -1,0 +1,68 @@
+{
+  "sections": {
+    "hero_TxnRGT": {
+      "type": "hero",
+      "settings": {
+        "main_img": "shopify://shop_images/hero-img.png",
+        "left_img": "shopify://shop_images/shape.png"
+      }
+    },
+    "special_offer_EPWELE": {
+      "type": "special-offer",
+      "settings": {
+        "show_ribbon": true,
+        "ribbon_text_color": "text-white",
+        "bg_color": "#e5ecda"
+      }
+    },
+    "featured_products_nXJKQn": {
+      "type": "featured-products",
+      "settings": {
+        "bg_color": "bg-body",
+        "bg_opacity": 100,
+        "bg_gradient": "",
+        "text_color": "text-body",
+        "border_top_width": 0,
+        "border_bottom_width": 0,
+        "border_color": "border-primary",
+        "border_opacity": 100,
+        "container_max_width": "",
+        "products": [],
+        "collection": "latest",
+        "limit": 8,
+        "recommended_mode": true,
+        "recommended_mode_intent": "related",
+        "header_title": "Featured Products",
+        "header_title_font_size": "h3",
+        "header_description": "<p>Add on optional description for this section</p>",
+        "header_description_font_size": "fs-md",
+        "slider_speed": 300,
+        "slider_navigation": true,
+        "slider_pagination": true,
+        "slider_pagination_type": "bullets",
+        "slider_scrollbar": true,
+        "slider_partial_slides_mobile": false,
+        "slider_autoplay": 0,
+        "breakpoint_mobile": 1,
+        "breakpoint_tablet": 2,
+        "breakpoint_desktop": 4,
+        "pt": 10,
+        "pb": 11
+      }
+    },
+    "image_with_content_8kDAtY": {
+      "type": "image-with-content",
+      "settings": {
+        "show_ribbon": true,
+        "ribbon_text_color": "text-white",
+        "bg_color": "#e5ecda"
+      }
+    }
+  },
+  "order": [
+    "hero_TxnRGT",
+    "special_offer_EPWELE",
+    "featured_products_nXJKQn",
+    "image_with_content_8kDAtY"
+  ]
+}
