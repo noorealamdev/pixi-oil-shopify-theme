@@ -76,18 +76,6 @@
             "product": "{{product}}"
           }
         },
-        "a277dbff-85ae-4c5e-ad26-4f7bb2cadc74": {
-          "type": "stock_indicator",
-          "disabled": true,
-          "settings": {
-            "low_stock_threshold": 10,
-            "low_stock_bg_color": "bg-primary",
-            "has_stock_bg_color": "bg-primary",
-            "progress_height": 8,
-            "pt": 0,
-            "pb": 7
-          }
-        },
         "ea44a44f-429a-4dd2-b40c-f1bf6304c554": {
           "type": "atc_button",
           "settings": {
@@ -248,7 +236,7 @@
       "settings": {}
     },
     "8b8acb35-e69e-4471-a6cb-d0a09485fb41": {
-      "type": "featured-products",
+      "type": "products-carousel",
       "settings": {
         "bg_color": "bg-body text-body",
         "bg_opacity": 100,

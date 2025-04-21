@@ -71,7 +71,7 @@
               </div>
             </div>
             {% if block.settings.img != blank or block.settings.author != blank %}
-              <div class="d-flex align-items-center mt-4 ms-1">
+              <div class="d-flex align-items-center mt-4 ms-6">
                 {% unless block.settings.img == blank %}
                   <div class="testimonials-card-img me-4">
                     {% render 'image-url', img: block.settings.img, size: 40, scale: true, orientation: 'ratio-1x1', class: 'rounded-circle' %}

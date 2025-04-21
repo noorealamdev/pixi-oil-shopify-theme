@@ -49,7 +49,7 @@
           "type": "mobile",
           "settings": {
             "container_max_width": "",
-            "logo": "shopify:\/\/shop_images\/ks-bootshop-logo.png",
+            "logo": "shopify:\/\/shop_images\/logo.png",
             "logo_height": 30,
             "main_menu": "dropdown-menu",
             "collections_menu": "",
@@ -62,7 +62,7 @@
           "type": "desktop",
           "settings": {
             "container_max_width": "",
-            "logo": "shopify:\/\/shop_images\/ks-bootshop-logo.png",
+            "logo": "shopify:\/\/shop_images\/logo.png",
             "logo_height": 32,
             "main_menu": "dropdown-menu",
             "pt": 5,

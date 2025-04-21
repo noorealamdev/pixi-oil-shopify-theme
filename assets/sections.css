@@ -239,7 +239,7 @@ body.navbar-dropdown-open #footer-group::after {
     top: 0;
     left: 0;
   }
-  .hero-section .content-wrapper h1{
+  .hero-section .content-wrapper h2{
     font-size: 40px;
   }
   .hero-section .content-wrapper h5{
@@ -364,8 +364,6 @@ body.navbar-dropdown-open #footer-group::after {
 */
 .featured-products {
   display: block;
-  border-top-style: solid;
-  border-bottom-style: solid;
 }
 
 
@@ -612,7 +610,7 @@ body.navbar-dropdown-open #footer-group::after {
 
 .newsletter-form .form-floating button {
   position: absolute;
-  top: 50%;
+  top: 34%;
   right: 0.5rem;
   transform: translateY(-50%);
   z-index: 3;
